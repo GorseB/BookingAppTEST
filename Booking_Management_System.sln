@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAppTEST", "BookingAppTEST\BookingAppTEST.csproj", "{52F6E657-BFCE-4BAE-BE42-CCA267E2787D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking_Management_System", "BookingAppTEST\Booking_Management_System.csproj", "{52F6E657-BFCE-4BAE-BE42-CCA267E2787D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69127C7C-F7FD-455E-B51D-CE3A51F464AC}
 	EndGlobalSection
 EndGlobal
