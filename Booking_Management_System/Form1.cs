@@ -41,7 +41,8 @@ namespace BookingAppTEST
             if (DR == DialogResult.OK)
             {
                 string ResultFromForm = Password_Input.txt_NewPassword.Text;
-                Output = string.Format("Data Source=dsedtest.database.windows.net;Initial Catalog=DSED_Booking;Integrated Security=False;User ID=dsedtestlogin;Password={0};Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False", ResultFromForm);
+                //Output = string.Format("Data Source=dsedtest.database.windows.net;Initial Catalog=DSED_Booking;Integrated Security=False;User ID=dsedtestlogin;Password={0};Connect Timeout=15;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False", ResultFromForm);
+                Output = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=VBMoviesFullData;Integrated Security=True";
             }
             return Output;
         }
