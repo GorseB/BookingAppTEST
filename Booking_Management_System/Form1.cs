@@ -25,8 +25,9 @@ namespace BookingAppTEST
             {
                 DataTable DT = DB.Fill();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString());
                 return false;
             }
             return true;
